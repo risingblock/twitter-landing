@@ -61,14 +61,28 @@ body {
   padding-right: 15px;
   width: 100%;
   text-align: center;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .sign-up-button {
   background-color: rgb(29, 161, 242);
   min-width: 63px;
+}
+
+.sign-up-button a {
   color: white;
+  text-decoration: none;
 }
 
 .log-in-button {
+  border: 1px solid rgb(29, 161, 242);
+}
+
+.log-in-button :any-link {
   color: rgb(29, 161, 242);
+  text-decoration: none;
 }
