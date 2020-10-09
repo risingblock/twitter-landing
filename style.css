@@ -6,6 +6,40 @@ body {
     Ubuntu, "Helvetica Neue", sans-serif;
 }
 
+.login-form {
+  display: flex;
+  position: absolute;
+  width: 50%;
+  top: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 15px;
+}
+
+.login-field {
+  width: 35%;
+  height: 53px;
+  margin-right: 20px;
+  background-color: rgb(25, 39, 52);
+  color: white;
+}
+
+.login-button-container {
+  display: flex;
+  color: rgb(29, 161, 242);
+  border-radius: 20px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-button {
+                  Log In
+
+}
+
 .container {
   display: flex;
   min-height: 95vh;
@@ -31,6 +65,7 @@ body {
 
 .login {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   width: 50%;
 }
@@ -78,11 +113,11 @@ body {
   text-decoration: none;
 }
 
-.log-in-button {
+.login-button {
   border: 1px solid rgb(29, 161, 242);
 }
 
-.log-in-button :any-link {
+.login-button :any-link {
   color: rgb(29, 161, 242);
   text-decoration: none;
 }
